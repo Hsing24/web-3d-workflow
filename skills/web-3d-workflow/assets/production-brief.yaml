@@ -1,0 +1,61 @@
+# 複製至個別任務目錄後填寫。null 代表尚待定義，不代表不需要。
+# 只保留當前任務適用欄位；來源中不要包含 API 金鑰或其他憑證。
+asset:
+  name: null
+  purpose: null
+  visual_style: null
+  quality_references: []
+  accuracy: null # concept / reference_match / dimensioned
+viewing:
+  display_size: null
+  nearest_view: null
+  visible_angles: null
+  free_orbit: null
+  target_devices: []
+  host_project: null
+  renderer: null
+controls:
+  interactions: []
+  movable_parts: []
+  deformations: []
+  animation_references: []
+  extreme_poses: []
+sources: [] # 每筆記錄 path_or_url、role、author、license、redistribution、confidence
+assumptions: [] # 製作推定及其可能影響
+route:
+  primary: null # procedural_cad / image_to_3d / existing_asset / scan / runtime_procedural
+  overlays: [] # part_interaction / deformation / large_scene
+  rationale: null
+  alternative: null
+  tools: [] # name、version、entrypoint、capability_evidence
+sample:
+  hardest_question: null
+  minimum_deliverable: null
+  pass_criteria: []
+budgets:
+  currency: null
+  max_external_cost: null # 付費執行前確認已授權額度；null 並非無限額
+  max_attempts: null
+  max_elapsed_minutes: null
+performance:
+  measurement_conditions: null
+  loading_target: null
+  frame_time_target: null
+  memory_target: null
+  transfer_size_target: null
+delivery:
+  output_directory: null
+  editable_source: null
+  runtime_format: null
+  coordinates_and_units: null
+  hierarchy_and_pivots: null
+  required_controls: []
+  evidence: []
+  license_records: null
+acceptance:
+  form: null
+  deformation: null
+  surface: null
+  export: null
+  website_function: null
+  target_device_performance: null
